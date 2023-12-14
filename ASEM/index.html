@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MoldLine Tradițional</title>
+  <meta name="title" content="Moldline - Restaurant Tradițional Moldovenesc">
+  <meta name="description" content="Restaurant made by Laura">
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!--link către css-->
+  <link rel="stylesheet" href="stylesheets/main.css">
+
+  <!--incarcarea imaginilor-->
+  <link rel="preload" as="image" href="assets/slider1.jpg">
+  <link rel="preload" as="image" href="assets/slider2.jpg">
+  <link rel="preload" as="image" href="assets/slider3.jpg">
+</head>
+
+<body id="top">
+
+  <!--incarcarea -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">MoldLine</p>
+  </div>
+
+  <!--header-->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="assets/logo.png" width="160" height="50" alt="MoldLine - Acasa">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <a href="#" class="logo">
+          <img src="assets/logo.png" width="160" height="50" alt="MoldLine - Acasa">
+        </a>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Acasă</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="meniu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Meniu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="despre.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Dspre noi</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Ingrediente</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contacte.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contacte</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Vizitează-ne</p>
+
+          <address class="body-4">
+           Restaurantul MoldLine str.Viilor 1, <br>
+            Chișinău 2023
+          </address>
+
+          <p class="body-4 navbar-text">Deschis: 9:00 - 21:00</p>
+        </div>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <!--hero-->
+  <section class="hero text-center" aria-label="home" id="home">
+    <ul class="hero-slider" data-hero-slider>
+
+      <li class="slider-item active" data-hero-slider-item>
+        <div class="slider-bg">
+          <img src="assets/slider1.jpg" width="1880" height="950" alt="" class="img-cover">
+        </div>
+
+        <h1 class="display-1 hero-title slider-reveal">
+          Din dragoste <br>pentru țară
+        </h1>
+
+        <p class="body-2 hero-text slider-reveal">
+          Vino să gustăm împreună bucatele tradiționale moldovenești
+        </p>
+
+        <a href="meniu.html" class="btn btn-primary slider-reveal">
+          <span class="text text-1">Vezi meniul</span>
+          <span class="text text-2" aria-hidden="true">Vezi meniul</span>
+        </a>
+      </li>
+
+      <li class="slider-item" data-hero-slider-item>
+        <div class="slider-bg">
+          <img src="assets/slider2.jpg" width="1880" height="950" alt="" class="img-cover">
+        </div>
+
+        <h1 class="display-1 hero-title slider-reveal">
+          Bucate tradiționale <br>moldovenești
+        </h1>
+
+        <p class="body-2 hero-text slider-reveal">
+          O călătorie culinară captivantă prin deliciile tradiționale ale bucătăriei moldovenești
+        </p>
+
+        <a href="meniu.html" class="btn btn-primary slider-reveal">
+          <span class="text text-1">Vezi meniul</span>
+
+          <span class="text text-2" aria-hidden="true">Vezi meniul</span>
+        </a>
+      </li>
+
+      <li class="slider-item" data-hero-slider-item>
+        <div class="slider-bg">
+          <img src="assets/slider3.jpg" width="1880" height="950" alt="" class="img-cover">
+        </div>
+
+        <h1 class="display-1 hero-title slider-reveal">
+          Savurează preparate <br>delicioase
+        </h1>
+
+        <p class="body-2 hero-text slider-reveal">
+          Atmosfera caldă și primitoare, decorată cu elemente tradiționale moldovenești, oferind o experiență autentică
+        </p>
+
+        <a href="meniu.html" class="btn btn-primary slider-reveal">
+          <span class="text text-1">Vezi meniul</span>
+
+          <span class="text text-2" aria-hidden="true">Vezi meniul</span>
+        </a>
+      </li>
+    </ul>
+
+    <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+      <ion-icon name="chevron-back"></ion-icon>
+    </button>
+
+    <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+      <ion-icon name="chevron-forward"></ion-icon>
+    </button>
+
+  </section>
+
+  <!--Meniu-->
+  <section class="section service bg-black-10 text-center" aria-label="service">
+    <div class="container">
+
+      <p class="section-subtitle label-2">noi vă oferim</p>
+      <h2 class="headline-1 section-title">Un Meniu Bogat și Variat</h2>
+
+      <p class="section-text">
+        Rețete ce vor cuceri inima tuturor. Trebuie să încerci totul de aici. Vei rămâne cu siguranță uimit. Bucătarii noștri gătesc cu dedicație și dor de Moldova.
+      </p>
+
+      <ul class="grid-list">
+        <li>
+          <div class="service-card">
+
+            <a href="meniu.html" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 300; --height: 375;">
+                <img src="assets/service1.jpg" width="300" height="375" loading="lazy" alt="Breakfast"
+                  class="img-cover">
+              </figure>
+            </a>
+
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="meniu.html">Deserturi</a>
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+
+            <a href="meniu.html" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 300; --height: 375;">
+                <img src="assets/service2.jpg" width="300" height="375" loading="lazy" alt="Appetizers"
+                  class="img-cover">
+              </figure>
+            </a>
+
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="meniu.html">Mâncare tradițională</a>
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+
+            <a href="meniu.html" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 300; --height: 375;">
+                <img src="assets/service3.jpg" width="300" height="375" loading="lazy" alt="Drinks"
+                  class="img-cover">
+              </figure>
+            </a>
+
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="meniu.html">Băuturi</a>
+              </h3>
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+      <img src="assets/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+        class="shape shape-2 move-anim">
+
+    </div>
+  </section>
+
+  <!--Despre-->
+  <section class="section about text-center" aria-labelledby="about-label" id="about">
+    <div class="container">
+
+      <div class="about-content">
+        <p class="label-2 section-subtitle" id="about-label">Povestea Noastră</p>
+
+        <p class="section-text">
+          Într-un colț pitoresc al Moldovei, restaurantul tradițional MoldLine s-a născut din pasiunea unui grup dedicat de oameni pentru bucatele autentice moldovenești. Ei au căutat și restaurat cu grijă un conac vechi, aducându-i la viață frumusețea și farmecul arhitecturii tradiționale.
+          Mobilierul rustic și decorul autentic au contribuit la crearea unei atmosfere primitoare. Meniul, inspirat de rețetele tradiționale, pune accent pe ingrediente locale proaspete, de la sarmale și mămăligă până la plăcinte cu brânză și tochitură moldovenească.
+        </p>
+
+        <a href="despre.html" class="btn btn-primary">
+          <span class="text text-1">Citește mai mult</span>
+          <span class="text text-2" aria-hidden="true">Citește mai mult</span>
+        </a>
+      </div>
+
+      <figure class="about-banner">
+        <img src="assets/about1.jpg" width="570" height="570" loading="lazy" alt="about banner"
+          class="w-100">
+
+        <div class="abs-img abs-img-1 has-before">
+          <img src="assets/about2.jpg" width="285" height="285" loading="lazy" alt=""
+            class="w-100">
+        </div>
+      </figure>
+
+    </div>
+  </section>
+    
+  <!--Rezervare-->
+  <section class="section Reservation text-center has-bg-image" style="background-image: url('assets/reservation-bg.jpg')">
+    <div class="container">
+      <section class = "banner">
+        <h2>Rezervează o masă</h2>
+        <div class = "card-container">
+            <div class = "card-img"></div>
+
+            <div class = "card-contet">
+              <h3>Rezevare</h3>
+              <form>
+                <div class = "form-row">
+                  <select name = "days">
+                    <option value = "day-select">Selectează ziua</option>
+                    <option value = "sunday">Luni</option>
+                    <option value = "monday">Marți</option>
+                    <option value = "tuesday">Miercuri</option>
+                    <option value = "wednesday">Joi</option>
+                    <option value = "thursday">Vineri</option>
+                    <option value = "friday">Sâmbătă</option>
+                    <option value = "saturday">Duminică</option>
+                  </select>
+
+                  <select name = "hours">
+                    <option value = "hour-select">Selectează ora</option>
+                    <option value = "10">09: 00</option>
+                    <option value = "10">10: 00</option>
+                    <option value = "10">11: 00</option>
+                    <option value = "10">12: 00</option>
+                    <option value = "10">13: 00</option>
+                    <option value = "10">14: 00</option>
+                    <option value = "10">15: 00</option>
+                    <option value = "10">16: 00</option>
+                    <option value = "10">17: 00</option>
+                    <option value = "10">18: 00</option>
+                    <option value = "10">19: 00</option>
+                    <option value = "10">20: 00</option>
+                  </select>
+                </div>
+
+                <div class = "form-row">
+                  <input type = "text" placeholder="Nume, Prenume">
+                  <input type = "text" placeholder="Numărul de telefon">
+                </div>
+
+                <div class = "form-row">
+                  <input type = "number" placeholder="Numărul de persoane" min = "1">
+                  <input type = "submit" value = "REZERVEAZĂ MASA">
+                </div>
+              </form>
+            </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+
+  <ul class="social_icon">
+    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+		<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+		<li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+  </ul>
+
+  <ul class="menu">
+    <li><a href="index.html">Acasă</a></li>
+    <li><a href="meniu.html">Meniu</a></li>
+    <li><a href="despre.html">Despre noi</a></li>
+    <li><a href="blog.html">Ingrediente</a></li>
+    <li><a href="contacte.html">Contacte</a></li>
+  </ul>
+  <p>Toate drepturile sunt rezervate © 2023</p>
+  </footer>
+
+  <!--inapoi sus-->
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!--link catre js-->
+  <script src="stylesheets/main.js"></script>
+
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
